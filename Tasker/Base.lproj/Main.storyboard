@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="afi-wI-4QC" id="Enn-Uz-z6z"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tasker" id="6Ht-Ur-0jc"/>
+                    <navigationItem key="navigationItem" title="Tasker" id="6Ht-Ur-0jc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="O4k-XS-rG5">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="afi-wI-4QC" id="r2i-6F-0K1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pn5-IK-5ue" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
